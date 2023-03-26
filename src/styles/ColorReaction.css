@@ -1,0 +1,54 @@
+.game-window{
+    width: 100vw;
+    height: 100vh;
+    border : none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(7, 7, 35);
+
+    font-size: 40;
+    font-family :'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.green-window{
+    width: 90vw;
+    height: 90vh;
+    background-color: rgb(28, 140, 28);
+    border : none;
+    border-radius: 10px;
+    
+    font-size: 40px;
+    font-family :'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color : whitesmoke
+}
+
+.red-window{
+    width: 90vw;
+    height: 90vh;
+    background-color: crimson;
+    border : none;
+    border-radius: 10px;
+
+    font-size: 40px;
+    font-family :'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color : whitesmoke
+}
+
+/* BEFORE GAME STARTS */
+.start-game-button{
+    width: 90vw;
+    height: 90vh;
+    background-color: rgb(7, 7, 35);
+    border : none;
+    border-radius: 10px;
+
+    font-size: 40px;
+    font-family :'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color : whitesmoke
+}
+
+.small-text{
+    font-size: 12px;
+}
