@@ -94,7 +94,13 @@ function ColorReaction(){
 
     if(gameEnded){
         return (
-            <div>{calculateAverageScore(scores)}</div>
+            <div className="game-window">
+            <button onClick={() => window.reload()} className="end-game-display"> 
+                <span className="large-colored-text">{calculateAverageScore(scores) + "ms"}</span>
+                <br />
+                <span className="small-text">{"Scores: " + scores}</span>
+            </button>
+        </div>
         );
     }
 

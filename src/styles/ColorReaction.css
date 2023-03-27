@@ -37,10 +37,10 @@
 }
 
 /* BEFORE GAME STARTS */
-.start-game-button{
+.start-game-button, .end-game-display{
     width: 90vw;
     height: 90vh;
-    background-color: rgb(7, 7, 35);
+    background-color: rgb(17, 17, 30);
     border : none;
     border-radius: 10px;
 
@@ -50,5 +50,10 @@
 }
 
 .small-text{
-    font-size: 12px;
+    font-size: 14px;
+}
+
+.large-colored-text{
+    font-size: 60px;
+    color : lightskyblue;
 }
